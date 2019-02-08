@@ -1,0 +1,7 @@
+# calculo apenas exemplo.
+n1 = float(input('Digite seu nivel de voo atual :FL'))
+n2 = float(input('Digite o nivel a descer : FL'))
+ktn= float(input('Digite velocidade para descida de acordo com o manual da aeronave : FL'))
+#formula
+resultado = (((n1 - n2)/1500) /60) *ktn
+print('{:.2f} Minutos para o nivel de voo FL {:.2f}'.format(resultado,n2))
