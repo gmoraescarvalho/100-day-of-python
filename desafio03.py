@@ -1,0 +1,7 @@
+n1 = int(input('Digite um numero: '))
+n2 = int(input('Digite o segundo número para calcular: '))
+print('O resultado da SOMA é: ',n1+n2)
+print('O resultado da subtração é: ',n1-n2)
+print('O resultado da multiplicação é :', n1*n2)
+print('O resultado da diviçao é: ', n1/n2)
+print('a potencia de N1 ELEVADO A N2 É ',n1**n2)
